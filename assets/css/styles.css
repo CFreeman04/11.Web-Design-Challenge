@@ -1,0 +1,90 @@
+/* Styling for HTML elements */
+
+a { font-size: 14px;   }
+
+.navbar { padding:20px; }
+
+p {   line-height:1.5; }
+
+h2, h3 {   color:teal; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+  line-height: 150%;
+  color: #333;
+  background:lightgray;
+}
+
+/* Summary (Index) Styling */
+.summary {
+    font-size:18px;
+    font-display:inline;
+    padding:100px;
+  }
+  
+.summary2 {
+    padding:50px;
+    background:white;
+  }
+
+.summary2 img {
+    width: 250px;
+    height: 250px;
+    padding:25px;
+  }
+
+/* Comparison HTML Styling */
+.comparison {
+    padding:50px;
+    background:white;
+  }
+
+.comparison2 {
+    padding:10px;
+    background:white;
+    text-align: center;
+  }
+
+.comparison2 img {
+    width: 300px;
+    height: 300px;
+    padding:5px;
+  }
+
+.comparison2 h3 {
+    font-size: 18px;
+    text-align:center;
+    padding-top:35px;
+  }
+
+  /* Visualizations HTML Styling*/
+.visualizations {
+    padding-top:100px;
+    padding-right:75px;
+  }
+
+.visualizations2 {
+    padding:25px;
+    background:white
+  }
+
+.visualizations img {
+    width: 200px;
+    height: 200px;
+    padding:15px;
+  }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Data Table Styling*/
+.table {
+  background: white;
+  font-family:Arial, Helvetica, sans-serif
+}
