@@ -33,7 +33,7 @@ body {
 .summary2 img {
     width: 250px;
     height: 250px;
-    padding:25px;
+    padding:15px;
   }
 
 /* Comparison HTML Styling */
@@ -71,7 +71,7 @@ body {
     background:white
   }
 
-.visualizations img {
+.visualizations2 img {
     width: 200px;
     height: 200px;
     padding:15px;

@@ -4,11 +4,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudiness</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Wind Speed</title>
-
-    <link rel="stylesheet" href="../assetscss/eset.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/styles.css">  
   
@@ -35,12 +34,10 @@
                 <a class="dropdown-item" href="humidity.html">Humidity</a>
                 <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
                 <a class="dropdown-item" href="wind speed.html">Wind Speed</a>
-                <!-- <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">3rd Item</a> -->
               </div>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="../comparison.html">Comparison<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="../data.html">Comparison<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../data.html">Data</a>
@@ -54,21 +51,16 @@
     <div class="row">
         <div class="col-md-8 col-xs-12 summary">
           <div class="summary2">
-            <h2>Wind Speed</h2>
+            <h2>Cloudiness</h2>
             <hr>
-            <img src="../assets/images/latitude vs. Wind Speed.jpg" alt="City Latitude vs Wind Speed" align="left">
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator (0 degrees
-                latitude). To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble
-                a dataset on over 500 cities.</br></br>
-                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at
-                included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations
-                created as a part of then analysis, as well as explanations and descriptions of any trends and correlations
-                witnessed.
+            <img src="../assets/images/latitude vs. cloudiness.jpg" alt="City Latitude vs Cloudiness" align="left">
+            <p>Cloudiness does not show a strong correlation to latitude. The visualization shows a great variety of cloudiness 
+              percentages at different latitudes.  Therefore, we cannot conclude that there is a conclusive  pattern between cloudiness and latitude.
             </p>
           </div>
         </div>
-        <div class="col-md-4 col-xs-12 viz">
-          <div class="viz2">
+        <div class="col-md-4 col-xs-12 visualizations">
+          <div class="visualizations2">
               <h3>Visualizations</h3>
               <hr>
               <a href="max temperature.html"><img src="../assets/Images/latitude vs. max temperature.jpg" alt="City Latitude vs Max Temperature"></a>
